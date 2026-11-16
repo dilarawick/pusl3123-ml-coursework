@@ -34,3 +34,35 @@ These libraries provide:
 - **PyYAML** – configuration parsing
 
 Make sure to activate a virtual environment before installing.
+
+## Repository File Structure
+```
+.
+├─ README.md                     # This file
+├─ assessment1/                  # Assessment 1 code & data
+│   ├─ data/
+│   │   └─ train.csv            # Dummy dataset placeholder
+│   ├─ src/
+│   │   └─ __init__.py          # Package init (add scripts here)
+│   ├─ requirements.txt          # Python dependencies for assessment 1
+│   └─ SAMPLE.txt                # Example file (optional)
+├─ assessment2/                  # Assessment 2 (model improvement & ablation)
+│   ├─ data/
+│   │   └─ train.csv            # Placeholder data for assessment 2
+│   ├─ src/
+│   │   ├─ __init__.py
+│   │   ├─ train.py
+│   │   ├─ eval.py
+│   │   ├─ model.py
+│   │   ├─ utils.py
+│   │   └─ inference.py
+│   ├─ configs/
+│   │   └─ baseline.yaml
+│   ├─ requirements.txt
+│   ├─ README.md                 # Overview for assessment 2
+│   └─ ... (notebooks, results, etc.)
+├─ .gitignore                    # Git ignore patterns
+└─ other project files as needed
+```
+
+The structure separates data, source code, configuration, and results for each assessment, making it easy to run experiments and generate the required reports.
