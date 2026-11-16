@@ -1,0 +1,9 @@
+# Dummy dataset placeholder for Assessment 1
+# This CSV mimics the expected FER2013 format: image_path,label
+# Labels: 0=Angry,1=Disgust,2=Fear,3=Happy,4=Sad,5=Surprise,6=Neutral
+
+train_image_001.png,0
+train_image_002.png,3
+train_image_003.png,6
+train_image_004.png,4
+train_image_005.png,2

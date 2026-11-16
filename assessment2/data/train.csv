@@ -1,0 +1,12 @@
+# Placeholder data file – this file can be populated with actual FER2013 images later.
+
+# For now it contains dummy entries that illustrate the expected format.
+# Each line could represent an image path and its label.
+
+image_001.png,0   # Angry
+image_002.png,1   # Disgust
+image_003.png,2   # Fear
+image_004.png,3   # Happy
+image_005.png,4   # Sad
+image_006.png,5   # Surprise
+image_007.png,6   # Neutral
