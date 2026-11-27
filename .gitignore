@@ -1,0 +1,21 @@
+# Datasets (re-downloadable)
+**/data/
+*.tar.gz
+*.zip
+
+# Trained model weights
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.onnx
+*.pkl
+*.joblib
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
